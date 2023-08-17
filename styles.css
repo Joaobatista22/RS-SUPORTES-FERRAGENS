@@ -38,7 +38,9 @@ h3 {
     text-align: center;
 }
 
-
+.d-block {
+    height: 180px;
+}
 
 .img-box {
     height: 150px;
@@ -49,7 +51,7 @@ h3 {
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    width: 230px;
+    width: 270px;
     margin-top: 10px;
     margin-left: 20px;
 
@@ -101,4 +103,41 @@ h1 {
     width: 60px;
     height: 60px;
     cursor: pointer;
+}
+
+.tabs {
+
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+}
+.tabs-button button {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    padding: 10px 16px;
+    font-weight: bolder;
+    color: #2E3332;
+}
+.tabs-button button:hover {
+    background-color: #fbfbfb;
+}
+
+
+@media (max-width: 600px) {
+        .id-box {
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            width: 350px;
+        }
+        .tabs-button {
+            display: flex;
+            height: 33px;
+}
+.tabs-button {
+    font-size: 10px;
+}
 }
