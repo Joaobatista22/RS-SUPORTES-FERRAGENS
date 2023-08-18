@@ -12,18 +12,15 @@
     background-color: whitesmoke;
     display: inline-block;
     text-align: center;
-    
+
 }
+
 .gif-promot {
     height: 64px;
     position: absolute;
 
 }
 
-header {
-    background: #582121;
-    
-}
 
 .header-logo {
     display: inline-block;
@@ -57,10 +54,26 @@ h3 {
 
 
 }
-.compound {
-    font-size: 30px;
 
+.card-body {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
 }
+
+.id-box-prateleiras {
+    float: left;
+    width: 250px;
+    height: 374px;
+    margin: 15px 0 0 15px;
+}
+
+.h1-suportes {
+    line-height: 33px;
+    font-size: 20px;
+    margin: 0;
+}
+
+
 .cod-complement {
     font-size: 12px;
     font-style: italic;
@@ -77,6 +90,7 @@ h1 {
     margin-bottom: 18px;
     margin-top: 11px;
 }
+
 .discretion {
     line-height: 16px;
 }
@@ -111,6 +125,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 0 0 5px 5px;
 }
+
 .tabs-button button {
     background-color: #f1f1f1;
     border: none;
@@ -121,23 +136,26 @@ h1 {
     font-weight: bolder;
     color: #2E3332;
 }
+
 .tabs-button button:hover {
     background-color: #fbfbfb;
 }
 
 
 @media (max-width: 600px) {
-        .id-box {
-            display: block;
-            text-align: center;
-            cursor: pointer;
-            width: 350px;
-        }
-        .tabs-button {
-            display: flex;
-            height: 33px;
-}
-.tabs-button {
-    font-size: 10px;
-}
+    .id-box {
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        width: 350px;
+    }
+
+    .tabs-button {
+        display: flex;
+        height: 33px;
+    }
+
+    .tabs-button {
+        font-size: 10px;
+    }
 }
