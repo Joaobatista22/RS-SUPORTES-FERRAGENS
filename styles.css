@@ -14,9 +14,11 @@
 
 }
 
+
+
 .nav-link {
     padding-left: 150px;
-    padding-right: 100px;
+    padding-right: 120px;
     color: #fff;
     background-color: #005d96;
     border: 1px solid transparent;
@@ -35,6 +37,12 @@
 
 }
 
+#logopng {
+    height: 60px;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
 
 .header-logo {
     display: inline-block;
@@ -195,6 +203,12 @@ h1 {
 
 
 @media screen and (max-width: 500px) {
+    #logopng {
+        height: 55px;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+    }
     .id-box {
         margin-top: 25px;
         text-align: center;
@@ -213,13 +227,15 @@ h1 {
     }
 
     .id-box-prateleiras {
-        margin-top: 30px;
-        width: 190px;
-        height: 420px;
+        height: 355px;
+        width: 187px;
+        line-height: 17px;
+        margin: 12px -5px 0px 13px;
+    }
     }
 
     .nav-tabs .nav-link {
-        padding: 9px;
+        padding: 3px;
         font-size: 10px;
     }
 
@@ -245,12 +261,15 @@ h1 {
     }
     .h1-suportes {
         line-height: 18px;
-        font-size: 20px;
+        font-size: 19px;
         margin: -10px;
     }
     p {
         margin-top: 10px;
         margin-bottom: 6px;
     }
+    .img-box {
+        height: 145px;
+        margin-top: 3px;
+    }
 
-}
