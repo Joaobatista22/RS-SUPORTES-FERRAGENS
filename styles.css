@@ -12,6 +12,7 @@
     display: inline-block;
     text-align: center;
 }
+
 #logopng {
     height: 60px;
     position: absolute;
@@ -34,8 +35,8 @@
     cursor: pointer;
 }
 
-.nav-link  {
-    color: #fff;    
+.nav-link {
+    color: #fff;
 }
 
 .nav {
@@ -53,6 +54,7 @@
     height: 12vh;
     width: 100vw;
 }
+
 .img-bar {
     display: inline-block;
     text-align: center;
@@ -82,7 +84,7 @@
 
 .amancotorcido23 {
     font-size: 29px;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 .amancoepoxibr {
@@ -91,14 +93,14 @@
 }
 
 .grandlast {
-    font-size: 43px;
-    margin-top: 12px;
-    margin-bottom: 29px;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 19px;
 }
 
 .tigreepoxi {
-    font-size: 28px;
-    margin-top: 1px;
+    font-size: 37px;
+    margin-top: 11px;
 }
 
 .card-body {
@@ -128,6 +130,21 @@ h1 {
     color: #010202;
     margin-bottom: 18px;
     margin-top: 11px;
+}
+
+.h1-suportes {
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 24px;
+    color: #010202;
+    margin-bottom: 18px;
+    margin-top: 11px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.25rem;
 }
 
 .auge-fonte {
@@ -170,11 +187,13 @@ h1 {
     border-top-right-radius: 1px;
     margin-bottom: 1px;
 }
+
 .cores {
     background-color: #0479c2;
     width: 200px;
     border-radius: 25px;
 }
+
 .titulo {
     box-sizing: border-box;
     color: white;
@@ -184,22 +203,37 @@ h1 {
 
 
 .titul {
+    padding-top: 12px;
     color: white;
-    font-size: 20px;
+    font-size: 27px;
     width: 50%;
     position: absolute;
     margin-left: 393px;
     margin-bottom: 2px;
 
 }
+
 .box-bicromado {
     width: 400px;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     color: rgb(73, 80, 87);
     background-color: #f4f4f4;
     border: none;
 }
+
+.nav-tabs .nav-link {
+    font-size: 15px;
+    padding-left: 162px;
+    padding-right: 120px;
+    border: none;
+    background-color: #026eb1;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 
 
 
@@ -246,51 +280,95 @@ h1 {
         line-height: 17px;
         margin: 12px -5px 0px 13px;
     }
-}
 
-ul {
-    background-color: #005d96;
-    margin-bottom: 333px;
-}
 
-.id-box-prateleiras {
-    float: left;
-    height: 355px;
-    line-height: 17px;
-}
+    ul {
+        background-color: #005d96;
+        margin-bottom: 333px;
+    }
 
-.card {
-    line-height: 21px;
-    font-size: 12px;
-    height: 127px;
-}
+    .id-box-prateleiras {
+        float: left;
+        height: 355px;
+        line-height: 17px;
+    }
 
-#lib-prateleira-invisivel {
-    line-height: 21px;
-    font-size: 11px;
-    height: 127px;
-}
+    .card {
+        line-height: 21px;
+        font-size: 12px;
+        height: 127px;
+    }
 
-.h1-suportes {
-    line-height: 18px;
-    font-size: 19px;
-    margin: -10px;
-}
+    #lib-prateleira-invisivel {
+        line-height: 21px;
+        font-size: 11px;
+        height: 127px;
+    }
 
-p {
-    margin-top: 10px;
-    margin-bottom: 6px;
-}
+    .h1-suportes {
+        line-height: 18px;
+        font-size: 19px;
+        margin: -10px;
+    }
 
-.img-box {
-    height: 145px;
-    margin-top: 3px;
-}
-.nav-tabs .nav-link {
-    font-size: 8px;
-    padding-left: 20px;
-    padding-right: 14px;
-    border: none;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
+    p {
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+
+    .img-box {
+        height: 145px;
+        margin-top: 3px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 8px;
+        padding-top: 10px;
+        padding-left: 23px;
+        padding-right: 12px;
+        border: none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        height: 30px;
+    }
+
+    .gif-fone01 {
+        height: 30px;
+        position: absolute;
+        right: 110px;
+        top: 68px;
+    }
+
+    .phone-01 {
+        position: absolute;
+        right: 15px;
+        top: 71px;
+        color: #031927;
+        cursor: pointer;
+    }
+
+    .titul {
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        position: absolute;
+        margin-left: 110px;
+        margin-bottom: 23px;
+        padding-top: 0;
+
+    }
+
+    .img-bar {
+        display: inline-block;
+        text-align: center;
+        height: 4vh;
+        width: 100vw;
+        margin-top: 0px;
+        margin-bottom: -10px;
+    }
+
+    .mb-5,
+    .my-5 {
+        margin-bottom: 0rem !important;
+    }
 }
