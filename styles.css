@@ -18,6 +18,7 @@
     position: absolute;
     top: 1%;
     left: 5%;
+    width: 127px;
 }
 
 .gif-fone01 {
@@ -25,11 +26,28 @@
     position: absolute;
     right: 110px;
     top: 41px;
+    width: 40px;
 }
 
 .phone-01 {
     position: absolute;
     right: 15px;
+    top: 44px;
+    color: #031927;
+    cursor: pointer;
+}
+
+.gif-fone02 {
+    height: 30px;
+    position: absolute;
+    right: 248px;
+    top: 41px;
+    width: 40px;
+}
+
+.phone-02 {
+    position: absolute;
+    right: 146px;
     top: 44px;
     color: #031927;
     cursor: pointer;
@@ -78,8 +96,8 @@
 }
 
 .amancotorcido22 {
-    font-size: 29px;
-    margin-top: 9px;
+    font-size: 27px;
+    margin-top: 12px;
 }
 
 .amancotorcido23 {
@@ -93,9 +111,15 @@
 }
 
 .grandlast {
-    font-size: 35px;
-    margin-top: 10px;
-    margin-bottom: 19px;
+    font-size: 34px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.grandlastbr {
+    font-size: 24px;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 
 .tigreepoxi {
@@ -111,7 +135,7 @@
 .id-box-prateleiras {
     float: left;
     width: 250px;
-    height: 410px;
+    height: 427px;
     margin: 15px 0 0 15px;
 }
 
@@ -119,26 +143,41 @@
     font-size: 12px;
     font-style: italic;
     padding-left: 160px;
-    margin-bottom: -1px;
-    margin-top: -18px;
+    margin-bottom: 21px;
+    margin-top: 0px;
+}
+.img-stylo {
+    height: 222px;
+    width: 220px;
+}
+.img-stylo02 {
+    height: 205px;
+    width: 210px;
+}
+.h1-min {
+    margin-top: -5px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 h1 {
     font-weight: 300;
     line-height: 35px;
-    font-size: 37px;
-    color: #010202;
-    margin-bottom: 18px;
+    font-size: 27px;
+    color: #0479c2;
     margin-top: 11px;
 }
 
 .h1-suportes {
     font-weight: 300;
     line-height: 26px;
-    font-size: 24px;
+    font-size: 19px;
     color: #010202;
-    margin-bottom: 18px;
-    margin-top: 11px;
+    margin-bottom: -5px;
+    margin-top: -34px;
 }
 
 .card-body {
@@ -153,8 +192,19 @@ h1 {
 
 .discretion {
     line-height: 16px;
+    font-size: 11px;
+    font-weight: 600;
 }
 
+.texto {
+    line-height: 16px;
+    font-size: 13px;
+}
+
+.p-prateleiras {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
 
 
 .cod {
@@ -162,6 +212,7 @@ h1 {
     font-size: 10px;
     font-style: italic;
     padding-left: 152px;
+    color: #0479c2;
 }
 
 .whatsapp {
@@ -203,7 +254,7 @@ h1 {
 
 
 .titul {
-    padding-top: 12px;
+    padding-top: 0px;
     color: white;
     font-size: 27px;
     width: 50%;
@@ -234,7 +285,34 @@ h1 {
     border-top-right-radius: 0px;
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+    height: 240px;
+    width: 243px;
+}
 
+.oip {
+    height: 240px;
+    width: 223px;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 0rem !important;
+}
+.platibanda-cod {
+    margin-bottom: 0px;
+    margin-top: -4px;
+}
+.img-platibanda {
+    height: 200px;
+    width: 210px;
+}
+.minh1 {
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
 
 
 
@@ -296,19 +374,20 @@ h1 {
     .card {
         line-height: 21px;
         font-size: 12px;
-        height: 127px;
+        height: 97px;
     }
+    
 
     #lib-prateleira-invisivel {
         line-height: 21px;
         font-size: 11px;
-        height: 127px;
+        height: 111px;
     }
 
     .h1-suportes {
+        margin: 5px 0;
         line-height: 18px;
-        font-size: 19px;
-        margin: -10px;
+        font-size: 17px;
     }
 
     p {
@@ -317,8 +396,9 @@ h1 {
     }
 
     .img-box {
-        height: 145px;
+        height: 272px;
         margin-top: 3px;
+        width: 287px;
     }
 
     .nav-tabs .nav-link {
@@ -367,8 +447,26 @@ h1 {
         margin-bottom: -10px;
     }
 
-    .mb-5,
+
     .my-5 {
         margin-bottom: 0rem !important;
+    }
+    .oip {
+        height: 150px;
+        width: 150px;
+    }
+    .phone-02 {
+        position: absolute;
+        right: 8px;
+        top: 44px;
+        color: #031927;
+        cursor: pointer;
+    }
+    .gif-fone02 {
+        height: 30px;
+        position: absolute;
+        right: 111px;
+        top: 41px;
+        width: 40px;
     }
 }
