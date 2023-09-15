@@ -1,3 +1,3 @@
-const selectButton = document.querySelector(".tab-content")
-    console.log (selectButton)
-
+$('#meuModal').on('shown.bs.modal', function () {
+    $('#meuInput').trigger('focus')
+  })

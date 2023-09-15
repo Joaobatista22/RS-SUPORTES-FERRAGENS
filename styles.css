@@ -11,6 +11,7 @@
     background-color: #f4f4f4;
     display: inline-block;
     text-align: center;
+    margin: auto;
 }
 
 #logopng {
@@ -57,10 +58,6 @@
     color: #fff;
 }
 
-.nav {
-    border: none;
-}
-
 .gif-promot {
     height: 64px;
     position: absolute;
@@ -92,39 +89,19 @@
     text-align: center;
     width: 270px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
-.amancotorcido22 {
-    font-size: 27px;
-    margin-top: 12px;
-}
 
-.amancotorcido23 {
-    font-size: 29px;
-    margin-top: 10px;
-}
 
-.amancoepoxibr {
-    font-size: 28px;
-    margin-top: 11px;
+.alian-text {
+    line-height: 25px;
 }
 
 .grandlast {
     font-size: 34px;
     margin-top: 7px;
     margin-bottom: 10px;
-}
-
-.grandlastbr {
-    font-size: 24px;
-    margin-top: 2px;
-    margin-bottom: 10px;
-}
-
-.tigreepoxi {
-    font-size: 37px;
-    margin-top: 11px;
 }
 
 .card-body {
@@ -139,21 +116,22 @@
     margin: 15px 0 0 15px;
 }
 
-.cod-complement {
-    font-size: 12px;
-    font-style: italic;
-    padding-left: 160px;
-    margin-bottom: 21px;
-    margin-top: 0px;
-}
+
 .img-stylo {
-    height: 222px;
+    height: 256px;
+    width: 250px;
+}
+
+.img-stylo2 {
+    height: 240px;
+    width: 250px;
+}
+
+.img-stylo02 {
+    height: 224px;
     width: 220px;
 }
-.img-stylo02 {
-    height: 205px;
-    width: 210px;
-}
+
 .h1-min {
     margin-top: -5px;
 }
@@ -169,6 +147,8 @@ h1 {
     font-size: 27px;
     color: #0479c2;
     margin-top: 11px;
+    font-weight: 700;
+    font-size: 21px;
 }
 
 .h1-suportes {
@@ -187,12 +167,13 @@ h1 {
 }
 
 .auge-fonte {
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .discretion {
     line-height: 16px;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -209,8 +190,9 @@ h1 {
 
 .cod {
     margin: initial;
-    font-size: 10px;
+    font-size: 15px;
     font-style: italic;
+    margin-bottom: 10px;
     padding-left: 152px;
     color: #0479c2;
 }
@@ -229,15 +211,7 @@ h1 {
     background-color: #0479c2;
 }
 
-.nav-tabs .nav-link {
-    font-size: 15px;
-    padding-left: 150px;
-    padding-right: 132px;
-    border: none;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
-    margin-bottom: 1px;
-}
+
 
 .cores {
     background-color: #0479c2;
@@ -275,15 +249,8 @@ h1 {
     border: none;
 }
 
-.nav-tabs .nav-link {
-    font-size: 15px;
-    padding-left: 162px;
-    padding-right: 120px;
-    border: none;
-    background-color: #026eb1;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
+
+
 
 img {
     vertical-align: middle;
@@ -297,23 +264,75 @@ img {
     width: 223px;
 }
 
+.oip-img {
+    height: 224px;
+    width: 235px;
+}
+
 .mb-5,
 .my-5 {
-    margin-bottom: 0rem !important;
+    margin-bottom: 1rem !important;
 }
-.platibanda-cod {
-    margin-bottom: 0px;
-    margin-top: -4px;
-}
-.img-platibanda {
-    height: 200px;
-    width: 210px;
-}
+
 .minh1 {
     margin-bottom: 0px;
     margin-top: 8px;
 }
 
+.cinza {
+    background-color: #eceff1;
+}
+
+td {
+    padding: 4px 46px 4px 24px;
+    color: #026eb1;
+}
+
+.btn-primary {
+    margin: 8px 0;
+}
+
+
+
+.plantas {
+    height: 248px;
+    width: 222px;
+}
+
+
+
+.nav-tabs .nav-link {
+    height: 32px;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.navegation {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(2, 110, 177);
+    width: 100%;
+    height: 40px;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    height: 38px;
+    background-color: rgb(2, 110, 177);
+    list-style: none;
+}
+
+.min-text {
+    font-weight: 700;
+    font-size: 21px;
+    color: #0479c2;
+    margin-top: 11px;
+}
 
 
 
@@ -323,13 +342,25 @@ img {
 
 
 
+@media screen and (max-width: 1130px) {
+
+    .nav-tabs .nav-link {
+        font-size: 15px;
+        padding-left: 41px;
+        padding-right: 120px;
+        border: none;
+        background-color: rgb(2, 110, 177);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        min-width: 100%;
+        max-width: 1000px;
+    }
+}
 
 
 
 
-
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 517px) {
     #logopng {
         height: 55px;
         position: absolute;
@@ -373,13 +404,6 @@ img {
         line-height: 17px;
     }
 
-    .card {
-        line-height: 21px;
-        font-size: 12px;
-        height: 97px;
-    }
-    
-
     #lib-prateleira-invisivel {
         line-height: 21px;
         font-size: 11px;
@@ -404,14 +428,12 @@ img {
     }
 
     .nav-tabs .nav-link {
-        font-size: 8px;
-        padding-top: 10px;
-        padding-left: 23px;
-        padding-right: 12px;
-        border: none;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        height: 30px;
+        height: 18px;
+        border-radius: 20px;
+        margin: 3px 15px 2px 2px;
+        padding: 0px;
+        font-size: 9px;
+        font-weight: bolder;
     }
 
     .gif-fone01 {
@@ -453,10 +475,12 @@ img {
     .my-5 {
         margin-bottom: 0rem !important;
     }
+
     .oip {
         height: 150px;
         width: 150px;
     }
+
     .phone-02 {
         position: absolute;
         right: 8px;
@@ -464,11 +488,19 @@ img {
         color: #031927;
         cursor: pointer;
     }
+
     .gif-fone02 {
         height: 30px;
         position: absolute;
         right: 111px;
         top: 41px;
         width: 40px;
+    }
+
+    .nav {
+        height: 23px;
+        background-color: rgb(2, 110, 177);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }
 }
