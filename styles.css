@@ -322,18 +322,21 @@ td {
     color: #0479c2;
     margin-top: 11px;
 }
+
 footer {
     background-color: #005d96;
     width: 100vw;
     height: 50vh;
     display: inline-block;
 }
+
 .mapa-logo {
-opacity: 0.2;
-right: 30%;
-top: 33px;
-position: relative;
+    opacity: 0.2;
+    right: 30%;
+    top: 33px;
+    position: relative;
 }
+
 .logo-png {
     position: relative;
     right: 47%;
@@ -435,11 +438,11 @@ position: relative;
     }
 
     .nav-tabs .nav-link {
-        height: 18px;
+        height: 25px;
         border-radius: 20px;
-        margin: 3px 15px 2px 2px;
-        padding: 0px;
-        font-size: 9px;
+        margin: 2px 0px 0px 0px;
+        font-size: 8px;
+        padding: 9px 5px 0 5px;
         font-weight: bolder;
     }
 
@@ -505,7 +508,7 @@ position: relative;
     }
 
     .nav {
-        height: 23px;
+        height: 29px;
         background-color: rgb(2, 110, 177);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
@@ -514,5 +517,26 @@ position: relative;
     td {
         padding: 4px 0px 4px 24px;
         color: #026eb1;
+    }
+
+    .mapa-logo {
+        opacity: 0.2;
+        right: 6%;
+        top: 33px;
+        height: 215px;
+        width: 219px;
+        position: relative;
+    }
+
+    .logo-png {
+        position: relative;
+        right: 52%;
+        height: 79px;
+        width: 119px;
+        bottom: 22px;
+    }
+
+    footer {
+        height: 30vh;
     }
 }
