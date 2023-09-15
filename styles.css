@@ -58,10 +58,6 @@
     color: #fff;
 }
 
-.gif-promot {
-    height: 64px;
-    position: absolute;
-}
 
 .header-logo {
     display: inline-block;
@@ -80,9 +76,7 @@
 
 }
 
-.d-block {
-    height: 180px;
-}
+
 
 .id-box {
     display: inline-block;
@@ -104,10 +98,7 @@
     margin-bottom: 10px;
 }
 
-.card-body {
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-}
+
 
 .id-box-prateleiras {
     float: left;
@@ -118,7 +109,7 @@
 
 
 .img-stylo {
-    height: 256px;
+    height: 241px;
     width: 250px;
 }
 
@@ -132,9 +123,7 @@
     width: 220px;
 }
 
-.h1-min {
-    margin-top: -5px;
-}
+
 
 p {
     margin-top: 0;
@@ -502,5 +491,10 @@ td {
         background-color: rgb(2, 110, 177);
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+    }
+
+    td {
+        padding: 4px 0px 4px 24px;
+        color: #026eb1;
     }
 }
