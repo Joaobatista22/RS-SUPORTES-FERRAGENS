@@ -322,6 +322,24 @@ td {
     color: #0479c2;
     margin-top: 11px;
 }
+footer {
+    background-color: #005d96;
+    width: 100vw;
+    height: 50vh;
+    display: inline-block;
+}
+.mapa-logo {
+opacity: 0.2;
+right: 30%;
+top: 33px;
+position: relative;
+}
+.logo-png {
+    position: relative;
+    right: 47%;
+    height: 107px;
+    bottom: 22px;
+}
 
 
 
