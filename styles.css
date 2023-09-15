@@ -344,6 +344,15 @@ footer {
     bottom: 22px;
 }
 
+.phone-footer {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom: 181px;
+    left: 38%;
+}
+
 
 
 
@@ -521,19 +530,25 @@ footer {
 
     .mapa-logo {
         opacity: 0.2;
-        right: 6%;
+        right: 13%;
         top: 33px;
-        height: 215px;
-        width: 219px;
+        height: 180px;
+        width: 170px;
         position: relative;
     }
 
     .logo-png {
         position: relative;
-        right: 52%;
+        right: 50%;
         height: 79px;
-        width: 119px;
+        width: 144px;
         bottom: 22px;
+    }
+
+    .phone-footer {
+        font-size: 19px;
+        bottom: 140px;
+        left: 29%;
     }
 
     footer {
