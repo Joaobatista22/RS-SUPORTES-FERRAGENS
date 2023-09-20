@@ -18,34 +18,35 @@
 
 <body class="wrapper">
     <main>
-        <header>
-            <div class="box-phone01">
-                <a class="phone-01" href="tel:1134733936">(11)3473-3936</a>
-                <img class="gif-fone01" src="./assets/oie_2155823cPkvp6sM.gif" alt="">
-            </div>
-            <div class="box-phone02">
-                <a class="phone-02" href="tel:11947327716">(11)94732-7716</a>
-                <img class="gif-fone02" src="./assets/oie_2155823cPkvp6sM.gif" alt="">
-            </div>
-            <img id="logopng" src="assets/logo-rs.png" alt="">
-            <img class="header-logo" src="assets/header-img.jpg" alt="">
+        <div id="box-wrapper">
+            <header>
+                <div class="box-phone01">
+                    <a class="phone-01" href="tel:1134733936">(11)3473-3936</a>
+                    <img class="gif-fone01" src="./assets/oie_2155823cPkvp6sM.gif" alt="">
+                </div>
+                <div class="box-phone02">
+                    <a class="phone-02" href="tel:11947327716">(11)94732-7716</a>
+                    <img class="gif-fone02" src="./assets/oie_2155823cPkvp6sM.gif" alt="">
+                </div>
+                <img id="logopng" src="assets/logo-rs.png" alt="">
+                <img class="header-logo" src="assets/header-img.jpg" alt="">
 
-        </header>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link tab-link" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                    aria-controls="home" aria-selected="true">SUPORTES PARA CALHAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link tab-link" id="profile-tab" data-toggle="tab" href="#perfil" role="tab"
-                    aria-controls="profile" aria-selected="false">SUPORTE PRATELEIRAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link tab-link su-plantas" id="contact-tab" data-toggle="tab" href="#contato" role="tab"
-                    aria-controls="contact" aria-selected="false">SUPORTE PARA PLANTAS</a>
-            </li>
-        </ul>
-
+            </header>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link tab-link" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">SUPORTES PARA CALHAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link tab-link" id="profile-tab" data-toggle="tab" href="#perfil" role="tab"
+                        aria-controls="profile" aria-selected="false">SUPORTE PRATELEIRAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link tab-link su-plantas" id="contact-tab" data-toggle="tab" href="#contato"
+                        role="tab" aria-controls="contact" aria-selected="false">SUPORTE PARA PLANTAS</a>
+                </li>
+            </ul>
+        </div>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <main id="calhas">
@@ -655,7 +656,7 @@
 
                     <div class="id-box shadow p-3 mb-5 bg-white rounded">
                         <div class="box-text">
-                            <img class="img-box img-stylo02" src="./assets/OIP.jpeg" alt="">
+                            <img class="img-stylo03" src="./assets/parts/COD-21-BR.jpg" alt="">
                             <h1 class="compound alian-text">Modelo Amanco Epóxi branco</h1>
                             <p class="discretion">SUPORTE PARA CALHA AMANCO EPÓXI BRANCO</p>
 
@@ -1689,12 +1690,12 @@
             <div class="tab-pane pendente fade" id="contato" role="tabpanel" aria-labelledby="contact-tab">
 
                 <p class="titul">Pendente Curvo 16 CM </p>
-                
+
                 <img class="img-bar" src="./assets/header-img.jpg" alt="">
 
                 <div class="id-box box-bicromado shadow p-3 mb-5 bg-white rounded">
                     <div class="box-text">
-                        <img class="img-box oip" src="./assets/OIP.jpeg" alt="">
+                        <img class="img-box" src="./assets/OIP.jpeg" alt="">
                         <h1>Bicromado</h1>
                         <li>|COD|<em>440</em></li>
                     </div>
@@ -1708,7 +1709,7 @@
                 </div>
                 <div class="id-box box-bicromado shadow p-3 mb-5 bg-white rounded">
                     <div class="box-text">
-                        <img class="img-box oip" src="./assets/OIP.jpeg" alt="">
+                        <img class="img-box COD440" src="/assets/Suporte Para Plantas/COD-440.jpg" alt="">
                         <h1>Preto</h1>
                         <li>|COD|<em>442</em></li>
                     </div>
@@ -1718,7 +1719,7 @@
                 <img class="img-bar" src="./assets/header-img.jpg" alt="">
                 <div class="id-box box-bicromado shadow p-3 mb-5 bg-white rounded">
                     <div class="box-text">
-                        <img class="img-box oip" src="./assets/OIP.jpeg" alt="">
+                        <img class="img-box oip" src="./assets/Suporte Para Plantas/COD-415.jpg" alt="">
                         <h1>Branco</h1>
                         <li><strong>15cm</strong> |COD|<em>415</em></li>
                         <li><strong>20cm</strong> |COD|<em>416</em></li>
@@ -1790,9 +1791,14 @@
                 <img class="mapa-logo" src="./assets/map.png" alt="mapa-logo">
                 <img class="logo-png" src="./assets/LOGO-RS-BRANCO.png" alt="logo-png">
             </div>
-            <div>
-            <a class="phone-footer" href="tel:11947327716">(11)94732-7716</a>
-        </div>
+
+            <div class="box-footer">
+                <p class="contatos">Contatos</p>
+                <a class="phone-footer" href="tel:11947327716">(11) 94732-7716</a>
+                <a class="phone-footer" href="tel:11947327716">(11) 94732-7716</a>
+                <a class="e-mail" href="mailto:rssuportes@hotmail.com" Line&body=Body Text”>rssuportes@hotmail.com</a>
+            </div>
+
         </footer>
 
 
