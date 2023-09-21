@@ -356,8 +356,8 @@ footer {
 
 .mapa-logo {
     opacity: 0.2;
-    right: 30%;
-    top: 33px;
+    right: 38%;
+    top: 203px;
     position: relative;
 }
 
@@ -373,17 +373,24 @@ footer {
     left: 38%;
     height: 143px;
     display: inline-grid;
-    bottom: 216px;
+    bottom: 129px;
 
 }
+
 .map {
     position: relative;
-    /* left: 38%; */
-    /* height: 143px; */
     display: inline-grid;
-    /* bottom: 216px; */
     background-color: red;
 
+}
+
+.box-map {
+    position: relative;
+    left: 13%;
+    width: 320px;
+    height: 143px;
+    /* display: inline-grid; */
+    bottom: 170px;
 }
 
 .phone-footer {
@@ -399,10 +406,23 @@ footer {
     color: #ffffff;
     text-shadow: 2px 4px 5px black;
 }
+
 .e-mail {
     font-weight: 800;
     margin-top: 10px;
     font-size: 23px;
+    color: #ffffff;
+    margin-right: 10px;
+    text-shadow: 2px 4px 5px black;
+}
+
+.endereco {
+    font-weight: 100;
+    margin-top: 10px;
+    padding: 14px;
+    position: relative;
+    right: 135px;
+    font-size: 20px;
     color: #ffffff;
     text-shadow: 2px 4px 5px black;
 }
@@ -517,7 +537,8 @@ footer {
 
     .phone-01 {
         right: 15px;
-        top: 71px;;
+        top: 71px;
+        ;
         padding-right: 12px;
         font-size: 13px;
     }
@@ -595,29 +616,44 @@ footer {
 
     .phone-footer {
         font-size: 12px;
- 
+
     }
-    .e-mail  {
+
+    .e-mail {
         font-size: 12px;
- 
+
     }
 
     footer {
         height: 37vh;
         display: inline-block;
     }
+
     .contatos {
         font-weight: 800;
         font-size: 22px;
         color: #ffffff;
         text-shadow: 2px 4px 5px black;
     }
+
     .box-footer {
         position: relative;
         left: 31%;
         height: 143px;
         display: inline-grid;
-        bottom: 190px;
+        bottom: 137;
+    }
+
+    .endereco {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .box-map {
+        position: sticky;
+    }
+    .endereco {
+        margin-left: 100px;
     }
 
 }
