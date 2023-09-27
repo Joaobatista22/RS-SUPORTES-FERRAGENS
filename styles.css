@@ -16,6 +16,12 @@
 
 
 
+.w-100 {
+    width: 100% !important;
+    height: 12rem;
+}
+
+
 #logopng {
     height: 60px;
     position: absolute;
@@ -70,6 +76,7 @@
     text-align: center;
     height: 12vh;
     width: 100vw;
+    margin-bottom: 1px;
 }
 
 .img-bar {
@@ -228,19 +235,24 @@ img {
     height: 189px;
     margin-top: 25px;
 }
+
 .img-cod22 {
     width: 214px;
     height: 214px;
 }
+
 .img-cod71 {
     width: 200px;
     height: 214px;
 }
+
 .my-5 {
     margin-bottom: 1rem !important;
 }
-.mb-5, .my-5 {
-    margin-bottom: 0rem!important;
+
+.mb-5,
+.my-5 {
+    margin-bottom: 0rem !important;
 }
 
 .minh1 {
@@ -616,6 +628,11 @@ footer {
 
     .endereco {
         margin-left: 100px;
+    }
+
+    .w-100 {
+        width: 100% !important;
+        height: 7rem;
     }
 
 }
